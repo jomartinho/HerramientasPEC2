@@ -3,36 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fuentes y Enlaces</title>
-  <link rel="stylesheet" href="./styles/main.css">
+  <meta name="description" content="Enlaces y recursos utilizados en el proyecto Descubre Portugal.">
+  <title>Enlaces - Descubre Portugal</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <nav>
+    <div class="container header-container">
+      <div class="logo">
+        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" stroke="#0052cc" stroke-width="4" fill="none"/>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="20" fill="#0052cc">DP</text>
+        </svg>
+      </div>
+      <nav>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="lugares.html"><i class="fas fa-map-marker-alt"></i> Lugares Icónicos</a></li>
-            <li><a href="sabores.html"><i class="fas fa-utensils"></i> Sabores de Portugal</a></li>
-            <li><a href="historia.html"><i class="fas fa-history"></i> Rincones con Historia</a></li>
-            <li><a href="enlaces.html">Enlaces</a></li>
-          </ul>
-    </nav>
-    <h1>Fuentes y Enlaces</h1>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="lugares.html">Lugares Icónicos</a></li>
+          <li><a href="sabores.html">Sabores</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </div>
     <button id="theme-toggle">Cambiar Tema</button>
   </header>
+
+  <!-- Main Content -->
   <main>
-    <section>
-      <h2>Atribuciones</h2>
-      <p>Enlaces de la información y recursos utilizados para crear este sitio web:</p>
-      <ul>
-        <li><a href="https://www.visitportugal.com/">Visit Portugal</a></li>
-        <li><a href="https://es.wikipedia.org/wiki/Portugal">Wikipedia</a></li>
-        <li>Imágenes propias y libres de derechos de autor. Todas las imagenes fueron hechas con IA</li>
-      </ul>
+    <section class="enlaces">
+      <div class="container">
+        <h1>Enlaces y Recursos</h1>
+        <p>A continuación, encontrarás un listado de recursos utilizados para crear este proyecto:</p>
+        <ul>
+          <li><a href="https://www.unsplash.com" target="_blank">Unsplash</a> - Imágenes de alta calidad.</li>
+          <li><a href="https://www.pexels.com" target="_blank">Pexels</a> - Imágenes y videos libres de derechos.</li>
+          <li><a href="https://www.fontawesome.com" target="_blank">FontAwesome</a> - Biblioteca de iconos utilizados en el sitio.</li>
+          <li><a href="https://validator.w3.org/" target="_blank">W3C Validator</a> - Validación de estándares HTML y CSS.</li>
+          <li><a href="https://www.visitportugal.com/">Visit Portugal</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Portugal">Wikipedia</a></li>
+          <li>Imágenes propias y libres de derechos de autor. Todas las imagenes fueron hechas con IA</li>
+        </ul>
+      </div>
     </section>
   </main>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Descubre Portugal</p>
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" stroke="#0052cc" stroke-width="4" fill="none"/>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="14" fill="#0052cc">DP</text>
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="lugares.html">Lugares Icónicos</a></li>
+          <li><a href="sabores.html">Sabores</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2024 Descubre Portugal. Todos los derechos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="">Política de Privacidad</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
   <script src="scripts/app.js"></script>
 </body>
