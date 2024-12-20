@@ -353,9 +353,26 @@
   <script>
     const swiperSettings = {
       loop: true,
-      slidesPerView: 5, 
       spaceBetween: 20,
       centeredSlides: false, 
+      breakpoints: {
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 5,
+          spaceBetween: 25,
+        },
+      },
       autoplay: {
       delay: 2000,
       disableOnInteraction: false,
