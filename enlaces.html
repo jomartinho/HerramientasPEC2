@@ -8,15 +8,25 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <!-- Header -->
   <header>
     <div class="container header-container">
       <div class="logo">
-        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="45" stroke="#0052cc" stroke-width="4" fill="none"/>
-          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="20" fill="#0052cc">DP</text>
+        <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="30%" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold">Descubre</text>
+          <rect x="60" y="8" width="80" height="25" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+          <rect x="50" y="40" width="100" height="30" fill="url(#halfRedHalfGreen)"/>
+          <defs>
+            <linearGradient id="halfRedHalfGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="50%" style="stop-color:#FF0000;stop-opacity:0.5" />
+              <stop offset="50%" style="stop-color:#008000;stop-opacity:0.5" />
+            </linearGradient>
+          </defs>
+            <text x="100" y="62" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="bold">PORTUGAL</text>
         </svg>
       </div>
+      
+      
+      
       <nav>
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -27,7 +37,6 @@
         </ul>
       </nav>
     </div>
-    <button id="theme-toggle">Cambiar Tema</button>
   </header>
 
   <!-- Main Content -->
@@ -37,9 +46,6 @@
         <h1>Enlaces y Recursos</h1>
         <p>A continuación, encontrarás un listado de recursos utilizados para crear este proyecto:</p>
         <ul>
-          <li><a href="https://www.unsplash.com" target="_blank">Unsplash</a> - Imágenes de alta calidad.</li>
-          <li><a href="https://www.pexels.com" target="_blank">Pexels</a> - Imágenes y videos libres de derechos.</li>
-          <li><a href="https://www.fontawesome.com" target="_blank">FontAwesome</a> - Biblioteca de iconos utilizados en el sitio.</li>
           <li><a href="https://validator.w3.org/" target="_blank">W3C Validator</a> - Validación de estándares HTML y CSS.</li>
           <li><a href="https://www.visitportugal.com/">Visit Portugal</a></li>
           <li><a href="https://es.wikipedia.org/wiki/Portugal">Wikipedia</a></li>
@@ -49,14 +55,21 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
     <div class="container footer-container">
-      <div class="footer-logo">
-        <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="45" stroke="#0052cc" stroke-width="4" fill="none"/>
-          <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="14" fill="#0052cc">DP</text>
-        </svg>
+      <div class="logo">
+          <svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="30%" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold">Descubre</text>
+            <rect x="60" y="8" width="80" height="25" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+            <rect x="50" y="40" width="100" height="30" fill="url(#halfRedHalfGreen)"/>
+            <defs>
+              <linearGradient id="halfRedHalfGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="50%" style="stop-color:#FF0000;stop-opacity:0.5" />
+                <stop offset="50%" style="stop-color:#008000;stop-opacity:0.5" />
+              </linearGradient>
+            </defs>
+              <text x="100" y="62" text-anchor="middle" font-size="16" fill="#FFFFFF" font-weight="bold">PORTUGAL</text>
+          </svg>
       </div>
       <nav>
         <ul>
@@ -76,6 +89,5 @@
       </nav>
     </div>
   </footer>
-  <script src="scripts/app.js"></script>
 </body>
 </html>
